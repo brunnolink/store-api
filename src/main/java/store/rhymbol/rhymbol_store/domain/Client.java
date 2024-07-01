@@ -1,9 +1,9 @@
-package store.rhymbol.rhymbol_store.domain.Clients;
+package store.rhymbol.rhymbol_store.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
-import store.rhymbol.rhymbol_store.domain.adress.Adress;
+import store.rhymbol.rhymbol_store.domain.Adress;
 @Entity
 @Builder
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})

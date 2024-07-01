@@ -1,10 +1,10 @@
-package store.rhymbol.rhymbol_store.domain.product;
+package store.rhymbol.rhymbol_store.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.*;
-import store.rhymbol.rhymbol_store.domain.restaurant.Restaurant;
+import store.rhymbol.rhymbol_store.domain.Restaurant;
 
 @Entity
 @Builder

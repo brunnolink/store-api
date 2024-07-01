@@ -1,4 +1,4 @@
-package store.rhymbol.rhymbol_store.domain.adress;
+package store.rhymbol.rhymbol_store.domain;
 
 
 import jakarta.persistence.Embeddable;
