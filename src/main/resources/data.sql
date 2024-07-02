@@ -12,3 +12,5 @@ INSERT INTO product (id, available, name, unitary_value, restaurant_id) VALUES
 
 INSERT INTO bag (id, payment_form, close, total_value, client_id) VALUES
 (1L, 0, false, 0.0, 1L);
+
+
